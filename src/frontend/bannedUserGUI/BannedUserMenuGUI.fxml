@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity"
+      prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal"
+      xmlns:fx="http://javafx.com/fxml/1">
+   <Label fx:id="bannedMenuPrompt" textAlignment="CENTER">
+      <VBox.margin>
+         <Insets bottom="15.0" left="15.0" right="15.0" top="15.0"/>
+      </VBox.margin>
+   </Label>
+   <Button fx:id="confirm" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </VBox.margin>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+   </Button>
+   <Button fx:id="cancel" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </padding>
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </VBox.margin>
+   </Button>
+   <Label fx:id="confirmationMessage" textAlignment="CENTER" textFill="#3e9c1c">
+      <VBox.margin>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0"/>
+      </VBox.margin>
+   </Label>
+</VBox>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <VBox layoutX="133.0" layoutY="81.0" prefHeight="238.0" prefWidth="313.0" spacing="10.0">
+         <children>
+            <Label text="GO Admin! Choose your options below" textAlignment="CENTER" textFill="#7772ba">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Label>
+            <Button fx:id="messageInboxButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" stylesheets="/frontend/styling/coolbutton.css" />
+            <Button fx:id="manageAdminAccountButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" stylesheets="/frontend/styling/coolbutton.css" />
+            <Button fx:id="userBrowsingButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" stylesheets="/frontend/styling/coolbutton.css" />
+            <Button fx:id="tradeUndoButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" stylesheets="/frontend/styling/coolbutton.css" />
+            <Button fx:id="exitButton" mnemonicParsing="false" prefHeight="50.0" prefWidth="300.0" stylesheets="/frontend/styling/coolbutton.css" />
+         </children>
+         <padding>
+            <Insets bottom="8.0" left="8.0" right="8.0" top="8.0" />
+         </padding>
+      </VBox>
+   </children>
+</AnchorPane>

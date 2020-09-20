@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx" xmlns:fx="http://javafx.com/fxml">
+   <children>
+      <VBox alignment="CENTER" layoutX="124.0" layoutY="28.0" prefHeight="355.0" prefWidth="353.0" spacing="10.0">
+         <children>
+            <Label text="You have some options with Admin accounts" textAlignment="CENTER" />
+            <Button fx:id="changePassWordButton" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" stylesheets="/frontend/styling/coolbutton.css" />
+            <Button fx:id="adminCreationButton" mnemonicParsing="false" prefHeight="80.0" prefWidth="200.0" stylesheets="/frontend/styling/coolbutton.css" />
+          <Button fx:id="exitButton" mnemonicParsing="false"  prefHeight="80.0" prefWidth="200.0" stylesheets="/frontend/styling/coolbutton.css" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

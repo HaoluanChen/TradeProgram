@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+   <Label text="What would you like to do today?">
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
+      </padding>
+   </Label>
+   <Button fx:id="accountInfo" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="globalInventory" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="loanItem" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="messageInbox" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="newItem" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="unfreezeRequest" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="privateMessage" mnemonicParsing="false" prefWidth="250.0" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Button fx:id="logout" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+      <padding>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </padding>
+   </Button>
+   <Label fx:id="systemMessage" textFill="#182fca">
+      <VBox.margin>
+         <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+      </VBox.margin>
+   </Label>
+</VBox>

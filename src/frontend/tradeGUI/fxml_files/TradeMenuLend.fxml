@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1">
+    <children>
+        <Label fx:id="titleScreen" layoutX="285.0" layoutY="62.0" />
+        <VBox alignment="CENTER" layoutX="197.0" layoutY="79.0" prefHeight="259.0" prefWidth="206.0">
+            <children>
+                <DatePicker fx:id="primaryDate" />
+                <TextField fx:id="timeOfTrade" promptText="Time of trade (HH:MM format)">
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <TextField fx:id="meetTrade" prefHeight="26.0" prefWidth="299.0" promptText="meeting of trade">
+                    <opaqueInsets>
+                        <Insets />
+                    </opaqueInsets>
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </TextField>
+                <MenuButton fx:id="typesOfTrade" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+                    <items>
+                        <MenuItem fx:id="permanent" mnemonicParsing="false" />
+                        <MenuItem fx:id="temporary" mnemonicParsing="false" />
+                    </items>
+                    <VBox.margin>
+                        <Insets top="15.0" />
+                    </VBox.margin>
+                </MenuButton>
+                <Button fx:id="submit" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+                    <VBox.margin>
+                        <Insets top="15.0" />
+                    </VBox.margin>
+                </Button>
+                <Button fx:id="returnToMainMenu" mnemonicParsing="false" stylesheets="/frontend/styling/coolbutton.css" >
+                    <VBox.margin>
+                        <Insets top="10.0" />
+                    </VBox.margin>
+                </Button>
+            </children>
+        </VBox>
+    </children>
+</AnchorPane>
